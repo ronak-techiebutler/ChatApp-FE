@@ -47,7 +47,6 @@ const _layout = () => {
   return (
     <PaperProvider theme={paperTheme}>
       <StatusBar
-        translucent
         backgroundColor="transparent"
         barStyle={colorScheme === "dark" ? "light-content" : "dark-content"}
       />
